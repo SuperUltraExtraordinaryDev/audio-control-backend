@@ -8,3 +8,715 @@ info [Mon May 23 2022 08:19:09 GMT-0700 (Pacific Daylight Time)]  Database Conne
 info [Mon May 23 2022 08:19:39 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
 
 info [Mon May 23 2022 08:44:51 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 08:55:04 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 08:58:52 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 08:59:14 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 08:59:23 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 09:00:51 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 09:03:33 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 09:03:46 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 09:04:13 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 09:06:32 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 09:08:32 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 09:08:54 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 09:09:50 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 09:10:12 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 09:10:22 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 09:11:16 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Mon May 23 2022 09:12:00 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:13:31 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio
+info [Mon May 23 2022 09:13:31 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:13:31 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:13:31 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+error [Mon May 23 2022 09:13:31 GMT-0700 (Pacific Daylight Time)]  Unknown Error occured! Please contact with Manager!
+info [Mon May 23 2022 09:13:31 GMT-0700 (Pacific Daylight Time)]  undefined
+info [Mon May 23 2022 09:13:31 GMT-0700 (Pacific Daylight Time)]  { message: 'Unknown Error occured! Please contact with Manager!' }
+
+info [Mon May 23 2022 09:14:08 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:14:27 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio
+info [Mon May 23 2022 09:14:27 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:14:27 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:14:27 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+error [Mon May 23 2022 09:14:27 GMT-0700 (Pacific Daylight Time)]  Unknown Error occured! Please contact with Manager!
+info [Mon May 23 2022 09:14:27 GMT-0700 (Pacific Daylight Time)]  undefined
+info [Mon May 23 2022 09:14:27 GMT-0700 (Pacific Daylight Time)]  { message: 'Unknown Error occured! Please contact with Manager!' }
+
+info [Mon May 23 2022 09:15:00 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:15:04 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio
+info [Mon May 23 2022 09:15:04 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:15:04 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:15:04 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Mon May 23 2022 09:15:04 GMT-0700 (Pacific Daylight Time)]  { count: [], audios: [], message: '' }
+info [Mon May 23 2022 09:16:09 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio
+info [Mon May 23 2022 09:16:09 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:16:09 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:16:09 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:16:09 GMT-0700 (Pacific Daylight Time)]  {
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        url: 'require',
+        description: 'require',
+        extension: 'require',
+        name: 'require'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: {},
+        modify: {},
+        require: { url: true, description: true, extension: true, name: true }
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ],
+      map: [Function (anonymous)]
+    },
+    strictMode: true,
+    op: null,
+    saving: null,
+    '$versionError': null,
+    saveOptions: null,
+    validating: null,
+    validationError: undefined,
+    cachedRequired: {},
+    backup: {
+      activePaths: {
+        modify: { name: true, extension: true, description: true, url: true },
+        default: { _id: true, createdAt: true }
+      },
+      validationError: null,
+      errors: undefined
+    },
+    inserting: true,
+    savedState: {}
+  },
+  '$isNew': false,
+  _doc: {
+    name: 'Test',
+    extension: 'mp3',
+    description: 'This is a test audio.',
+    url: '/uploads/test.mp3',
+    _id: new ObjectId("628bb349ab236084133c860d"),
+    createdAt: 2022-05-23T16:16:09.846Z,
+    __v: 0
+  },
+  '$errors': undefined,
+  message: ''
+}
+info [Mon May 23 2022 09:16:30 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio
+info [Mon May 23 2022 09:16:30 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:16:30 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:16:30 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:16:30 GMT-0700 (Pacific Daylight Time)]  {
+  count: [ { name: 1 } ],
+  audios: [
+    {
+      _id: new ObjectId("628bb349ab236084133c860d"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is a test audio.',
+      url: '/uploads/test.mp3',
+      createdAt: 2022-05-23T16:16:09.846Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+
+info [Mon May 23 2022 09:17:04 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:17:05 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio
+info [Mon May 23 2022 09:17:05 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:17:05 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:17:05 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:17:05 GMT-0700 (Pacific Daylight Time)]  {
+  count: 1,
+  audios: [
+    {
+      _id: new ObjectId("628bb349ab236084133c860d"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is a test audio.',
+      url: '/uploads/test.mp3',
+      createdAt: 2022-05-23T16:16:09.846Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Mon May 23 2022 09:17:21 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=1
+info [Mon May 23 2022 09:17:21 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:17:21 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '1' }
+info [Mon May 23 2022 09:17:21 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:17:21 GMT-0700 (Pacific Daylight Time)]  { count: 0, audios: [], message: '' }
+info [Mon May 23 2022 09:17:35 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio/628bb349ab236084133c860d
+info [Mon May 23 2022 09:17:35 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:17:35 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:17:35 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+error [Mon May 23 2022 09:17:35 GMT-0700 (Pacific Daylight Time)]  Unknown Error occured! Please contact with Manager!
+info [Mon May 23 2022 09:17:35 GMT-0700 (Pacific Daylight Time)]  undefined
+info [Mon May 23 2022 09:17:35 GMT-0700 (Pacific Daylight Time)]  { message: 'Unknown Error occured! Please contact with Manager!' }
+
+info [Mon May 23 2022 09:18:02 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:18:04 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio/628bb349ab236084133c860d
+info [Mon May 23 2022 09:18:04 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:18:04 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:18:04 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:18:04 GMT-0700 (Pacific Daylight Time)]  {
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        url: 'init',
+        description: 'init',
+        extension: 'init',
+        name: 'init',
+        _id: 'init',
+        createdAt: 'init',
+        __v: 'init'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: {
+          _id: true,
+          name: true,
+          extension: true,
+          description: true,
+          url: true,
+          createdAt: true,
+          __v: true
+        },
+        modify: {},
+        require: {}
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ]
+    },
+    skipId: true,
+    strictMode: true,
+    selected: {},
+    fields: {},
+    exclude: null
+  },
+  '$isNew': false,
+  _doc: {
+    _id: new ObjectId("628bb349ab236084133c860d"),
+    name: 'Test',
+    extension: 'mp3',
+    description: 'This is a test audio.',
+    url: '/uploads/test.mp3',
+    createdAt: 2022-05-23T16:16:09.846Z,
+    __v: 0
+  },
+  message: ''
+}
+
+info [Mon May 23 2022 09:20:51 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:20:54 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio/628bb349ab236084133c860d
+info [Mon May 23 2022 09:20:54 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:20:54 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:20:54 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:20:54 GMT-0700 (Pacific Daylight Time)]  {
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        url: 'init',
+        description: 'init',
+        extension: 'init',
+        name: 'init',
+        _id: 'init',
+        createdAt: 'init',
+        __v: 'init'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: {
+          _id: true,
+          name: true,
+          extension: true,
+          description: true,
+          url: true,
+          createdAt: true,
+          __v: true
+        },
+        modify: {},
+        require: {}
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ]
+    },
+    skipId: true,
+    strictMode: true,
+    selected: {},
+    fields: {},
+    exclude: null
+  },
+  '$isNew': false,
+  _doc: {
+    _id: new ObjectId("628bb349ab236084133c860d"),
+    name: 'Test',
+    extension: 'mp3',
+    description: 'This is a test audio.',
+    url: '/uploads/test.mp3',
+    createdAt: 2022-05-23T16:16:09.846Z,
+    __v: 0
+  },
+  message: ''
+}
+
+info [Mon May 23 2022 09:22:18 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:22:23 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio/628bb349ab236084133c860d
+info [Mon May 23 2022 09:22:23 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:22:23 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:22:23 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:22:23 GMT-0700 (Pacific Daylight Time)]  {
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        url: 'init',
+        description: 'init',
+        extension: 'init',
+        name: 'init',
+        _id: 'init',
+        createdAt: 'init',
+        __v: 'init'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: {
+          _id: true,
+          name: true,
+          extension: true,
+          description: true,
+          url: true,
+          createdAt: true,
+          __v: true
+        },
+        modify: {},
+        require: {}
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ]
+    },
+    skipId: true,
+    strictMode: true,
+    selected: {},
+    fields: {},
+    exclude: null
+  },
+  '$isNew': false,
+  _doc: {
+    _id: new ObjectId("628bb349ab236084133c860d"),
+    name: 'Test',
+    extension: 'mp3',
+    description: 'This is a test audio.',
+    url: '/uploads/test.mp3',
+    createdAt: 2022-05-23T16:16:09.846Z,
+    __v: 0
+  },
+  message: ''
+}
+
+info [Mon May 23 2022 09:23:14 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:23:15 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio/628bb349ab236084133c860d
+info [Mon May 23 2022 09:23:15 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:23:15 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:23:15 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:23:15 GMT-0700 (Pacific Daylight Time)]  {
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        url: 'init',
+        description: 'init',
+        extension: 'init',
+        name: 'init',
+        _id: 'init',
+        createdAt: 'init',
+        __v: 'init'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: {
+          _id: true,
+          name: true,
+          extension: true,
+          description: true,
+          url: true,
+          createdAt: true,
+          __v: true
+        },
+        modify: {},
+        require: {}
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ]
+    },
+    skipId: true,
+    strictMode: true,
+    selected: { _v: 0 },
+    fields: { _v: 0 },
+    exclude: true
+  },
+  '$isNew': false,
+  _doc: {
+    _id: new ObjectId("628bb349ab236084133c860d"),
+    name: 'Test',
+    extension: 'mp3',
+    description: 'This is a test audio.',
+    url: '/uploads/test.mp3',
+    createdAt: 2022-05-23T16:16:09.846Z,
+    __v: 0
+  },
+  message: ''
+}
+
+info [Mon May 23 2022 09:23:35 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:23:37 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio/628bb349ab236084133c860d
+info [Mon May 23 2022 09:23:37 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:23:37 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:23:37 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:23:37 GMT-0700 (Pacific Daylight Time)]  {
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        url: 'require',
+        description: 'require',
+        extension: 'require',
+        name: 'init',
+        _id: 'init'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: { _id: true, name: true },
+        modify: {},
+        require: { url: true, description: true, extension: true }
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ]
+    },
+    skipId: true,
+    strictMode: true,
+    selected: { name: 1 },
+    fields: { name: 1 },
+    exclude: false
+  },
+  '$isNew': false,
+  _doc: { _id: new ObjectId("628bb349ab236084133c860d"), name: 'Test' },
+  message: ''
+}
+
+info [Mon May 23 2022 09:23:50 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:23:56 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio
+info [Mon May 23 2022 09:23:56 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:23:56 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:23:56 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:23:56 GMT-0700 (Pacific Daylight Time)]  {
+  count: 1,
+  audios: [
+    {
+      _id: new ObjectId("628bb349ab236084133c860d"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is a test audio.',
+      url: '/uploads/test.mp3',
+      createdAt: 2022-05-23T16:16:09.846Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Mon May 23 2022 09:24:03 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio/628bb349ab236084133c860d
+info [Mon May 23 2022 09:24:03 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:24:03 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:24:03 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:24:03 GMT-0700 (Pacific Daylight Time)]  {
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        url: 'init',
+        description: 'init',
+        extension: 'init',
+        name: 'init',
+        _id: 'init',
+        createdAt: 'init',
+        __v: 'init'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: {
+          _id: true,
+          name: true,
+          extension: true,
+          description: true,
+          url: true,
+          createdAt: true,
+          __v: true
+        },
+        modify: {},
+        require: {}
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ]
+    },
+    skipId: true,
+    strictMode: true,
+    selected: {},
+    fields: {},
+    exclude: null
+  },
+  '$isNew': false,
+  _doc: {
+    _id: new ObjectId("628bb349ab236084133c860d"),
+    name: 'Test',
+    extension: 'mp3',
+    description: 'This is a test audio.',
+    url: '/uploads/test.mp3',
+    createdAt: 2022-05-23T16:16:09.846Z,
+    __v: 0
+  },
+  message: ''
+}
+
+info [Mon May 23 2022 09:27:33 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:27:36 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio/628bb349ab236084133c860d
+info [Mon May 23 2022 09:27:36 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:27:36 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:27:36 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:27:36 GMT-0700 (Pacific Daylight Time)]  {
+  _id: new ObjectId("628bb349ab236084133c860d"),
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3',
+  createdAt: 2022-05-23T16:16:09.846Z,
+  __v: 0,
+  message: ''
+}
+
+info [Mon May 23 2022 09:27:55 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:28:01 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio/628bb349ab236084133c860d
+info [Mon May 23 2022 09:28:01 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:28:01 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:28:01 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:28:01 GMT-0700 (Pacific Daylight Time)]  {
+  audio: {
+    _id: new ObjectId("628bb349ab236084133c860d"),
+    name: 'Test',
+    extension: 'mp3',
+    description: 'This is a test audio.',
+    url: '/uploads/test.mp3',
+    createdAt: 2022-05-23T16:16:09.846Z,
+    __v: 0
+  },
+  message: ''
+}
+
+info [Mon May 23 2022 09:28:46 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:28:49 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio/628bb349ab236084133c860d
+info [Mon May 23 2022 09:28:49 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:28:49 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:28:49 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:28:49 GMT-0700 (Pacific Daylight Time)]  {
+  audio: {
+    _id: new ObjectId("628bb349ab236084133c860d"),
+    name: 'Test',
+    extension: 'mp3',
+    description: 'This is a test audio.',
+    url: '/uploads/test.mp3',
+    createdAt: 2022-05-23T16:16:09.846Z,
+    __v: 0
+  },
+  message: ''
+}
+info [Mon May 23 2022 09:29:28 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio
+info [Mon May 23 2022 09:29:28 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:29:28 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:29:28 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:29:28 GMT-0700 (Pacific Daylight Time)]  {
+  '$__': InternalCache {
+    activePaths: StateMachine {
+      paths: {
+        url: 'require',
+        description: 'require',
+        extension: 'require',
+        name: 'require'
+      },
+      states: {
+        ignore: {},
+        default: {},
+        init: {},
+        modify: {},
+        require: { url: true, description: true, extension: true, name: true }
+      },
+      stateNames: [ 'require', 'modify', 'init', 'default', 'ignore' ],
+      map: [Function (anonymous)]
+    },
+    strictMode: true,
+    op: null,
+    saving: null,
+    '$versionError': null,
+    saveOptions: null,
+    validating: null,
+    validationError: undefined,
+    cachedRequired: {},
+    backup: {
+      activePaths: {
+        modify: { name: true, extension: true, description: true, url: true },
+        default: { _id: true, createdAt: true }
+      },
+      validationError: null,
+      errors: undefined
+    },
+    inserting: true,
+    savedState: {}
+  },
+  '$isNew': false,
+  _doc: {
+    name: 'Test',
+    extension: 'mp3',
+    description: 'This is a test audio.',
+    url: '/uploads/test.mp3',
+    _id: new ObjectId("628bb668b65b6822c8feb476"),
+    createdAt: 2022-05-23T16:29:28.219Z,
+    __v: 0
+  },
+  '$errors': undefined,
+  message: ''
+}
+
+info [Mon May 23 2022 09:29:53 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:29:54 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio
+info [Mon May 23 2022 09:29:54 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:29:54 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:29:54 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:29:54 GMT-0700 (Pacific Daylight Time)]  {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3',
+  _id: new ObjectId("628bb682f03b4b9b8c165613"),
+  createdAt: 2022-05-23T16:29:54.763Z,
+  __v: 0,
+  message: ''
+}
+
+info [Mon May 23 2022 09:30:07 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Mon May 23 2022 09:30:11 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio
+info [Mon May 23 2022 09:30:11 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Mon May 23 2022 09:30:11 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Mon May 23 2022 09:30:11 GMT-0700 (Pacific Daylight Time)]  BODY: {
+  name: 'Test',
+  extension: 'mp3',
+  description: 'This is a test audio.',
+  url: '/uploads/test.mp3'
+}
+info [Mon May 23 2022 09:30:11 GMT-0700 (Pacific Daylight Time)]  {
+  audio: {
+    name: 'Test',
+    extension: 'mp3',
+    description: 'This is a test audio.',
+    url: '/uploads/test.mp3',
+    _id: new ObjectId("628bb693b27acbbf5f58b489"),
+    createdAt: 2022-05-23T16:30:11.701Z,
+    __v: 0
+  },
+  message: ''
+}

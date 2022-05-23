@@ -10,8 +10,7 @@ const DEBUG = {
     PARAMS: true,
     QUERY: true,
     BODY: true,
-    SQL: true,
-    RESPONSE: true,
+    RESPONSE: false,
     ERROR: true,
 };
 

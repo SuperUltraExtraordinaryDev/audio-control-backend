@@ -2,7 +2,7 @@
 const { DEBUG } = require("../config");
 const LOGGER = require("./logger");
 
-const Response = (res, status, data, message = "") => {
+const RESPONSE = (res, status, data, message = "") => {
     if (status === 200) {
         if (DEBUG.RESPONSE) {
             console.log({
@@ -35,4 +35,4 @@ const Response = (res, status, data, message = "") => {
     }
 };
 
-module.exports = Response;
+module.exports = RESPONSE;
