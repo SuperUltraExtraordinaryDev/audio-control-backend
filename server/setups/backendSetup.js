@@ -18,10 +18,11 @@ const { PORT } = require("../config");
 const { routeMiddleware } = require("../utils");
 
 const backendSetup = (app) => {
+    app.use(cors());
+
     app.use(`/${UPLOAD_URL}`, express.static(UPLOAD_URL));
 
     app.use(express.json());
-    app.use(cors());
 
     app.use(routeMiddleware);
 

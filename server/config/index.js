@@ -4,14 +4,14 @@ const PORT = 8080;
 const UPLOAD_URL = "uploads";
 
 const DEBUG = {
-    REQUEST_SHOW: true,
-    URL: true,
-    TOKEN: true,
-    PARAMS: true,
-    QUERY: true,
-    BODY: true,
+    REQUEST_SHOW: false,
+    URL: false,
+    TOKEN: false,
+    PARAMS: false,
+    QUERY: false,
+    BODY: false,
     RESPONSE: false,
-    ERROR: true,
+    ERROR: false,
 };
 
 const ROUTE_VERSION = "v1";
