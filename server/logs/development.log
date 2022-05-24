@@ -13883,3 +13883,500 @@ info [Mon May 23 2022 18:38:21 GMT-0700 (Pacific Daylight Time)]  {
 }
 
 info [Mon May 23 2022 18:38:55 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+
+info [Tue May 24 2022 01:53:00 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Tue May 24 2022 01:57:24 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 01:57:24 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 01:57:24 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 01:57:24 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 01:57:24 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Tue May 24 2022 01:57:24 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 01:57:24 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 01:57:24 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 01:57:24 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 01:57:25 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Tue May 24 2022 02:00:04 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 02:00:04 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 02:00:04 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 02:00:04 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 02:00:06 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Tue May 24 2022 02:00:06 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 02:00:06 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 02:00:06 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 02:00:06 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 02:00:08 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+
+
+info [Tue May 24 2022 04:24:21 GMT-0700 (Pacific Daylight Time)]  Database Connection Success!
+info [Tue May 24 2022 04:25:23 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 04:25:23 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:25:23 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 04:25:23 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:25:24 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Tue May 24 2022 04:25:24 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 04:25:24 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:25:24 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 04:25:24 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:25:25 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Tue May 24 2022 04:26:33 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 04:26:33 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:26:33 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 04:26:33 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:26:34 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Tue May 24 2022 04:26:34 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 04:26:34 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:26:34 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 04:26:34 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:26:35 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Tue May 24 2022 04:26:56 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 04:26:56 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:26:56 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 04:26:56 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:26:56 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Tue May 24 2022 04:26:56 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 04:26:56 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:26:56 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 04:26:56 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:26:57 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Tue May 24 2022 04:29:50 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 04:29:50 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:29:50 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 04:29:50 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:29:53 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Tue May 24 2022 04:29:53 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 04:29:53 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:29:53 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 04:29:53 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:29:53 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Tue May 24 2022 04:29:55 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio/628c9c44509f0a1592fdc4b1
+info [Tue May 24 2022 04:29:55 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:29:55 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Tue May 24 2022 04:29:55 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:29:56 GMT-0700 (Pacific Daylight Time)]  {
+  audio: {
+    _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+    name: 'Test1',
+    extension: 'mp3',
+    description: 'This is test1 audio.',
+    url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+    createdAt: 2022-05-24T08:50:12.052Z,
+    __v: 0
+  },
+  message: ''
+}
+info [Tue May 24 2022 04:29:56 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio/628c9c44509f0a1592fdc4b1
+info [Tue May 24 2022 04:29:56 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:29:56 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Tue May 24 2022 04:29:56 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:29:56 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3
+info [Tue May 24 2022 04:29:56 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:29:56 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Tue May 24 2022 04:29:56 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:29:56 GMT-0700 (Pacific Daylight Time)]  {
+  audio: {
+    _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+    name: 'Test1',
+    extension: 'mp3',
+    description: 'This is test1 audio.',
+    url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+    createdAt: 2022-05-24T08:50:12.052Z,
+    __v: 0
+  },
+  message: ''
+}
+info [Tue May 24 2022 04:30:10 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio/628c9c44509f0a1592fdc4b1
+info [Tue May 24 2022 04:30:10 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:30:10 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Tue May 24 2022 04:30:10 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:30:10 GMT-0700 (Pacific Daylight Time)]  {
+  audio: {
+    _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+    name: 'Test1',
+    extension: 'mp3',
+    description: 'This is test1 audio.',
+    url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+    createdAt: 2022-05-24T08:50:12.052Z,
+    __v: 0
+  },
+  message: ''
+}
+info [Tue May 24 2022 04:30:10 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio/628c9c44509f0a1592fdc4b1
+info [Tue May 24 2022 04:30:10 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:30:11 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Tue May 24 2022 04:30:11 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:30:11 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3
+info [Tue May 24 2022 04:30:11 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:30:11 GMT-0700 (Pacific Daylight Time)]  QUERY: {}
+info [Tue May 24 2022 04:30:11 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:30:11 GMT-0700 (Pacific Daylight Time)]  {
+  audio: {
+    _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+    name: 'Test1',
+    extension: 'mp3',
+    description: 'This is test1 audio.',
+    url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+    createdAt: 2022-05-24T08:50:12.052Z,
+    __v: 0
+  },
+  message: ''
+}
+info [Tue May 24 2022 04:30:28 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 04:30:28 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:30:28 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 04:30:28 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:30:29 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Tue May 24 2022 04:30:29 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 04:30:29 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:30:29 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 04:30:29 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:30:29 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
+info [Tue May 24 2022 04:44:09 GMT-0700 (Pacific Daylight Time)]  URL: http://localhost:8080/api/v1/audios/audio?name=&page=0&count=5
+info [Tue May 24 2022 04:44:09 GMT-0700 (Pacific Daylight Time)]  PARAMS: {}
+info [Tue May 24 2022 04:44:09 GMT-0700 (Pacific Daylight Time)]  QUERY: { name: '', page: '0', count: '5' }
+info [Tue May 24 2022 04:44:09 GMT-0700 (Pacific Daylight Time)]  BODY: {}
+info [Tue May 24 2022 04:44:10 GMT-0700 (Pacific Daylight Time)]  {
+  count: 2,
+  audios: [
+    {
+      _id: new ObjectId("628c9c44509f0a1592fdc4b1"),
+      name: 'Test1',
+      extension: 'mp3',
+      description: 'This is test1 audio.',
+      url: 'uploads/0711086d-65c6-4df3-b136-9743491b3131-gummybearz.mp3',
+      createdAt: 2022-05-24T08:50:12.052Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId("628c9c15509f0a1592fdc4a5"),
+      name: 'Test',
+      extension: 'mp3',
+      description: 'This is test audio.',
+      url: 'uploads/54f66380-73eb-444e-8d7a-493cff59978a-gummybearz.mp3',
+      createdAt: 2022-05-24T08:49:25.734Z,
+      __v: 0
+    }
+  ],
+  message: ''
+}
